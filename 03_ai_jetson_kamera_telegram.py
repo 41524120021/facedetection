@@ -5,10 +5,10 @@ import os
 from datetime import datetime
 
 # --- KONFIGURASI ---
-VIDEO_URL = "http://192.168.100.15:8080/video"  # ganti dengan IP kamera HP kamu
+VIDEO_URL = "your_ip_cam"  # ganti dengan IP kamera HP kamu
 OUTPUT_DIR = "rekaman_wajah"
-TELEGRAM_BOT_TOKEN = "8359492075:AAGZBZrgZQU45aaXk8IGvRBjnTlP1BZ92ek"
-TELEGRAM_CHAT_ID = "1048144404"
+TELEGRAM_BOT_TOKEN = "your_telegram_token_from_bot_fathe"
+TELEGRAM_CHAT_ID = "your_telegram_chat_id"
 
 # --- Pastikan folder penyimpanan ada ---
 os.makedirs(OUTPUT_DIR, exist_ok=True)
