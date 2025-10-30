@@ -25,8 +25,8 @@ def get_log_file():
 
 LOG_FILE = get_log_file()  # Will update daily automatically
 
-TELEGRAM_BOT_TOKEN = "5767234239:AAEi3ed7aPHzG1qBhwVxqyb4EWSZo2IrCLQ"
-TELEGRAM_CHAT_ID = "464313305"
+TELEGRAM_BOT_TOKEN = "token_bot_telegram"
+TELEGRAM_CHAT_ID = "your_chat_ID"
 SERIAL_PORT = "COM3"
 BAUD_RATE = 115200
 
@@ -684,3 +684,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
